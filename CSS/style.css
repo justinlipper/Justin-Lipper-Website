@@ -1,0 +1,295 @@
+
+/*
+This CSS was written
+by Justin Lipper
+*/
+
+.mobileView {
+  display: none;
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+h2, h3 {
+  text-align: center;
+  font-family: sans-serif;
+  color: grey;
+  margin-bottom: 3%;
+}
+
+/* Nav Bar */
+nav {
+  background-color: #efefef;
+  padding-top: 2%;
+  padding-bottom: 2.5%;
+  width: 104%;
+  margin-left: -2%;
+  margin-top: -2%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wsite-title {
+  font-family: "Century Gothic" !important;
+  font-weight: normal;
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  text-decoration: none;
+  background-color: inherit;
+}
+
+.nav1 {
+  width: 100%;
+  background-color: inherit;
+}
+
+.nav2 {
+  width: 33%;
+  text-align: center;
+  font-family: "Century Gothic";
+  text-decoration: none;
+}
+
+.nav3 {
+  text-decoration: none;
+  color: #a3a6a8;
+  font-size: 125%;
+  font-family: sans-serif;
+}
+
+.active {
+  color: #6f6a95;
+}
+
+/* End Nav Bar */
+
+/* Picture (Banner) setup */
+.banner {
+  width: 104%;
+  margin-left: -2%;
+}
+
+/* The banner picture at the bottom */
+.footBan {
+  margin-bottom: -2%;
+}
+/* End  Picture (Banner) setup */
+
+/* Home Page */
+  /* Content */
+  .content { 
+    color: grey;
+    font-family: verdana;
+    font-size: 15px;
+    text-align: center;
+
+    border-top: solid #bfbfbf 1px;
+    border-bottom: solid #bfbfbf 1px;
+
+    height: 15%;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  /* End Content */
+
+  /* Extra Links */
+  .linkSect {
+    width: 80%;
+    margin: auto;
+
+    margin-top: 2%;
+    margin-bottom: 2%;  
+    border-top: solid #bfbfbf 1px;
+    border-bottom: solid #bfbfbf 1px;
+  }
+
+  .linkTable {
+    margin: auto;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%; 
+  }
+
+  .linkTd {
+    width: 20%;
+    text-align: center;
+    font-family: "Century Gothic";
+  }
+
+  .linkA {
+    color: #a6a6a6;
+    background-color: #d9d9d9;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 3.5%;
+    padding-bottom: 3.5%;
+  }
+
+  .linkA:hover {
+    color: white;
+    background-color: #6f6a95;
+  }
+
+  .linkSpac {
+    width: 20%;
+  }
+  /* End Extra Links */
+/* End Home Page */
+
+
+/* Resume Page */
+
+.biography {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  background-color: inherit;
+  width: 50%;
+  float: left;
+
+  margin-left: 6%;
+
+  border-right: 2px solid grey;
+
+  padding-right: 3%;
+}
+
+.biogHead {
+  text-align: left;
+  font-family: sans-serif;
+  color: #6f6a95;
+  font-size: 1em;
+
+  margin-left: 6%;
+  margin-top: 2%;
+}
+
+.resLinkCont {
+  margin-right: 7%;
+  margin-bottom: 2%;
+  width: 30%;
+  float: right;
+}
+
+.resLink {
+  color: grey;
+  background-color: #d9d9d9;
+  font-family: sans-serif;
+  font-size: 200%;
+
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.resLink:hover {
+  color: white;
+  background-color: #6f6a95;
+}
+
+.resText {
+  font-family: sans-serif;
+  color: #595959;
+}
+
+.topSpac {
+  margin-top: 20%;
+}
+
+.resInv {
+  font-size: 135%;
+  text-align: left; 
+}
+
+/* End of Resume Page*/
+
+
+/* Software Page */
+
+.swftwrContainer {
+  width: 100%;
+}
+
+
+.gitImg {
+  height: 9%;
+  width: 27%;
+  opacity: 1;
+
+  position: relative;
+  margin-left: 36%;
+  margin-top: 3%;
+
+}
+
+.gitImg:hover {
+  opacity: .7;
+}
+
+.sftwrHead {
+  text-align: center;
+  font-family: sans-serif;
+  color: grey;
+  font-weight: normal;
+  
+  margin-top: 2%;
+  margin-bottom: 6%;
+  margin-right: 15%;
+  margin-left: 15%;
+
+  padding-bottom: 3%;
+
+  border-bottom: solid #bfbfbf 3px;
+}
+
+.sftwrLink {
+  color: #9898e6;
+}
+
+.sftwrLink:hover {
+  color: #0052cc;
+}
+
+.videoSect {
+
+  margin-top: 2%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.vid {
+  width: 25%;
+  height: 23%;
+  
+}
+
+.videoTextCont {
+  width: 70%;
+  float: right;
+  text-align: left;
+}
+
+.videoTit {
+  text-align: left;
+  font-weight: normal;
+  margin-top: -.75%;
+}
+
+.videoDesc {
+  font-family: sans-serif;
+  color: #595959;
+}
+
+/* End of Software Page */
+
+
+

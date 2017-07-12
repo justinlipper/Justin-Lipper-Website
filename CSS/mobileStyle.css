@@ -1,0 +1,119 @@
+
+@media screen and (max-width: 480px) {
+  
+  body {
+    background-color: ;
+  }
+
+  .ComputerView {
+    display: none;
+  }
+
+  .mobileView {
+    display: block;
+  }
+
+  /* Home Page */
+  .linkSect {
+    display: none;
+  }
+
+  .wsite-title {
+    font-size: 150%;
+  }
+
+  .profilePic {
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    border: solid #bfbfbf 1px;
+  }
+
+  .mobileAbout {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 7%;
+  }
+
+  .aboutLinks {
+    -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+    width: 33%;
+    color: #a6a6a6;
+    background-color: #d9d9d9;
+    font-size: 175%;
+    margin-right: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+
+  .aboutLinks:hover{
+    color: white;
+    background-color: #6f6a95;
+  }
+
+  /* End of Home Page */
+
+  /* Resume Page */
+
+  .biogHead {
+    margin: auto;
+    margin-left: 6%;
+    margin-top: 6%;
+  }
+
+  .biography {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    border: none;
+    width: 90%;
+
+    padding-right: 6%;
+  }
+
+  .reslinkCont {
+    display: none;
+  }
+
+  .resLink {
+    margin: auto;
+  }
+
+  /* End of Resume Page */
+
+}
+
+@media screen and (max-width: 920px; min-width: ) {
+
+}
+
+@media screen and (min-width: 1281px) {
+
+  .wsite-title {
+    font-size: 300%;
+  }
+
+  .resInv {
+    font-size: 175%;
+  }
+
+  .biography {
+    font-size: 150%;
+  }
+
+  .biogHead {
+    font-size: 160%;
+  }
+
+  .topSpac1 {
+    margin-top: 13%;
+  }
+}
+
+
+
+
+
+
